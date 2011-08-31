@@ -12,15 +12,10 @@ class PCMiddleware(object):
         user = authenticate(password=key)
         if user is not None:
             logger.debug("%s -- %s requested: %s" % (datetime.datetime.utcnow(), user.username, request.path+'?'+request.META['QUERY_STRING']))
-            login(request, user)
+            request.user = user
             roll = randint(1,10)
             if roll == 3:
                 return HttpResponse("Internal Server Error", status=500)
             if roll == 4:
                 time.sleep(400)
         return None
-
-    def process_response(self, request, response):
-        if not request.user.is_superuser:
-            logout(request)
-            return response
