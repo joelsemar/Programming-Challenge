@@ -11,12 +11,13 @@ ADMINS = (
     ('Adminstrator', 'Admin@YourAppDomain.com'), ('Developer', 'developer@company.com')
 )
 
+PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': SERVER_NAME,                      # Or path to database file if using sqlite3.
+        'NAME': os.path.join(PROJECT_PATH, SERVER_NAME),                      # Or path to database file if using sqlite3.
         'USER': SERVER_NAME,                      # Not used with sqlite3.
         'PASSWORD': SERVER_NAME,                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -84,7 +85,6 @@ SITE_SETTINGS_MODEL = 'mainapp.SiteSettings'
 
 ROOT_URLCONF = 'urls'
 
-PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 TEMPLATE_DIRS = ()
     
 for root, dirs, files in os.walk(PROJECT_PATH):
