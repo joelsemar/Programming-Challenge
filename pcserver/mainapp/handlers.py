@@ -4,8 +4,8 @@ from mainapp.models import * #@UnusedWildImport
 
 
 #Create your handlers here
-class TermsHandler(AutoListHandler):
-    model = Term
+class PhotosHandler(AutoListHandler):
+    model = Photo
     allowed_methods = ('GET',)
     extra_fields = ('image_url',)
     exclude = ('image', )
@@ -13,7 +13,7 @@ class TermsHandler(AutoListHandler):
     @login_required
     def read(self, request,  response):
         """
-        Fetch a list of Terms
+        Fetch a photo by id.
         API Handler: GET /terms
         Params:
            @key [string] your api key
@@ -25,8 +25,8 @@ class TermsHandler(AutoListHandler):
         return super(TermsHandler, self).read(request, response)
 
 
-class TermHandler(BaseHandler):
-    model = Term
+class PhotoHandler(BaseHandler):
+    model = Photo
     allowed_methods = ('GET',)
     extra_fields = ('image_url',)
     exclude = ('image', )
@@ -34,7 +34,7 @@ class TermHandler(BaseHandler):
     @login_required
     def read(self, request, id, response):
         """
-        Fetch a list of Terms
+        Fetch a list of Photos
         API Handler: GET /term/{id}
         Params:
            @id [id] id of the term (in the url)

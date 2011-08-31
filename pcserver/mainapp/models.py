@@ -6,7 +6,7 @@ from django.db.models.signals import post_save
 from django.dispatch import receiver
 import base64
 # Create your models here.
-class Term(models.Model):
+class Photo(models.Model):
     title = models.CharField(max_length=128)
     description = models.TextField()
     image = models.ImageField(upload_to='images')
