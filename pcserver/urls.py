@@ -12,8 +12,8 @@ admin.autodiscover()
 
 basepatterns = patterns('',
     (r'^admin/', include(admin.site.urls)),
-    (r'^terms/?$', Resource(PhotosHandler)),
-    (r'^term/(?P<id>[\d]+)/?$', Resource(PhotoHandler)),    
+    (r'^photos/?$', Resource(PhotosHandler)),
+    (r'^photo/(?P<id>[\d]+)/?$', Resource(PhotoHandler)),    
     (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.MEDIA_ROOT}),
     (r'^$', Resource(DocHandler)),
 )
