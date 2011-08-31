@@ -14,15 +14,15 @@ class PhotosHandler(AutoListHandler):
     def read(self, request,  response):
         """
         Fetch a photo by id.
-        API Handler: GET /terms
+        API Handler: GET /photos
         Params:
            @key [string] your api key
            
         Returns:
-           @terms [Term] list of terms, see Term docs for details
+           @photos [Photo] list of photos, see Photo docs for details
         
         """
-        return super(TermsHandler, self).read(request, response)
+        return super(PhotosHandler, self).read(request, response)
 
 
 class PhotoHandler(BaseHandler):
@@ -35,9 +35,9 @@ class PhotoHandler(BaseHandler):
     def read(self, request, id, response):
         """
         Fetch a list of Photos
-        API Handler: GET /term/{id}
+        API Handler: GET /photo/{id}
         Params:
-           @id [id] id of the term (in the url)
+           @id [id] id of the photo (in the url)
            @key [string] your api key 
         Returns:
            @title [string] title
@@ -45,7 +45,7 @@ class PhotoHandler(BaseHandler):
            @image_url [url] a url to the corresponding image
         
         """
-        return super(TermHandler, self).read(request, id, response)
+        return super(PhotoHandler, self).read(request, id, response)
 
 
 #ALL DEFINITION EOF
