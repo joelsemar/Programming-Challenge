@@ -13,7 +13,7 @@ class PhotosHandler(AutoListHandler):
     @login_required
     def read(self, request,  response):
         """
-        Fetch a photo by id.
+        Returns a list of Photo objects.
         API Handler: GET /photos
         Params:
            @key [string] your api key
@@ -34,7 +34,7 @@ class PhotoHandler(BaseHandler):
     @login_required
     def read(self, request, id, response):
         """
-        Fetch a list of Photos
+        Fetch the details of a photo by id
         API Handler: GET /photo/{id}
         Params:
            @id [id] id of the photo (in the url)
