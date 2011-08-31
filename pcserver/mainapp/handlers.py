@@ -10,13 +10,13 @@ class TermsHandler(AutoListHandler):
     extra_fields = ('image_url',)
     exclude = ('image', )
     
-#    @login_required
+    @login_required
     def read(self, request,  response):
         """
         Fetch a list of Terms
         API Handler: GET /terms
         Params:
-           None
+           @key [string] your api key
            
         Returns:
            @terms [Term] list of terms, see Term docs for details
@@ -31,14 +31,14 @@ class TermHandler(BaseHandler):
     extra_fields = ('image_url',)
     exclude = ('image', )
     
-#    @login_required
+    @login_required
     def read(self, request, id, response):
         """
         Fetch a list of Terms
         API Handler: GET /term/{id}
         Params:
-           id [id] id of the term (in the url)
-           
+           @id [id] id of the term (in the url)
+           @key [string] your api key 
         Returns:
            @title [string] title
            @description [string] a short description

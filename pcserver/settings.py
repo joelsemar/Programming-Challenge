@@ -73,10 +73,10 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'webservice_tools.middleware.response.ProvideResponse',
-    'webservice_tools.middleware.logger.LoggingMiddleware',
     'webservice_tools.middleware.exception.WebServiceException',
     'django.middleware.transaction.TransactionMiddleware',
     'webservice_tools.middleware.response.DocBuilder',
+    'middleware.PCMiddleware',
     
 )
 AUTH_PROFILE_MODULE = 'mainapp.UserProfile'
@@ -140,3 +140,9 @@ LOGGING = {
       }
   },
 }
+
+
+AUTHENTICATION_BACKENDS = ('django.contrib.auth.backends.ModelBackend',
+                           'webservice_tools.backends.authentication_backends.EmailAuthBackend',
+                           'mainapp.auth.TokenBackend',
+                           )

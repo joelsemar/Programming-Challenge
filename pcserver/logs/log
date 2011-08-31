@@ -1,7 +1,7 @@
 -------------------------------------
-2011-08-30 23:30:54.644929
+2011-08-31 16:08:49.352507
 RUN_MAIN: true
-HTTP_REFERER: http://127.0.0.1:8080/?
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
 SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
 SCRIPT_NAME: 
 REQUEST_METHOD: GET
@@ -10,171 +10,24 @@ HOME: /home/joel
 DISPLAY: :0.0
 LANG: en_US.UTF-8
 SHELL: /bin/bash
-SERVER_PORT: 8080
+SERVER_PORT: 8000
 USERNAME: root
 HTTP_X_REQUESTED_WITH: XMLHttpRequest
-HTTP_HOST: 127.0.0.1:8080
+HTTP_HOST: 127.0.0.1:8000
 HTTP_ACCEPT: */*
 SUDO_GID: 1000
 wsgi.version: (1, 0)
 wsgi.run_once: False
-wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f5d0c4991e0>
-wsgi.multiprocess: False
-HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
-MAIL: /var/mail/joel
-LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
-PATH_INFO: /pcserver/term/1
-HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=08e171c407752d8424aa632455f28162
-LOGNAME: root
-USER: root
-QUERY_STRING: 
-PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
-HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
-TERM: xterm
-HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
-HTTP_CONNECTION: keep-alive
-XAUTHORITY: /home/joel/.Xauthority
-LANGUAGE: 
-REMOTE_ADDR: 127.0.0.1
-wsgi.url_scheme: http
-SUDO_USER: joel
-CONTENT_LENGTH: 
-SUDO_UID: 1000
-wsgi.input: <socket._fileobject object at 0x35ef350>
-wsgi.multithread: True
-TZ: America/Chicago
-SUDO_COMMAND: ./manage.py runserver 8080
-SERVER_NAME: localhost.localdomain
-GATEWAY_INTERFACE: CGI/1.1
-DJANGO_SETTINGS_MODULE: pcserver.settings
-CONTENT_TYPE: text/plain
-wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
-REMOTE_HOST: 
-HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
-
-
-HANDLER: GET /pcserver/term/1
-RESPONSE
-Vary: Authorization
-Content-Type: application/json; charset=utf-8
-
-{
-    "errors": [
-        "401 -- Unauthorized"
-    ], 
-    "data": {
-        "messages": []
-    }, 
-    "success": false
-}
--------------------------------------
-
-["read() got an unexpected keyword argument 'id'", '/usr/local/lib/python2.6/dist-packages/django_piston-0.2.3rc1-py2.6.egg/piston/resource.py in __call__, line: 164']
--------------------------------------
-2011-08-30 23:41:53.449344
-RUN_MAIN: true
-HTTP_REFERER: http://127.0.0.1:8080/pcserver/
-SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
-SCRIPT_NAME: 
-REQUEST_METHOD: GET
-SERVER_PROTOCOL: HTTP/1.1
-HOME: /home/joel
-DISPLAY: :0.0
-LANG: en_US.UTF-8
-SHELL: /bin/bash
-SERVER_PORT: 8080
-USERNAME: root
-HTTP_X_REQUESTED_WITH: XMLHttpRequest
-HTTP_HOST: 127.0.0.1:8080
-HTTP_ACCEPT: */*
-SUDO_GID: 1000
-wsgi.version: (1, 0)
-wsgi.run_once: False
-wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f78248121e0>
-wsgi.multiprocess: False
-HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
-MAIL: /var/mail/joel
-LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
-PATH_INFO: /pcserver/term/1
-HTTP_COOKIE: sessionid=530c0ae0dc5310ff9d0b0d689b2d5b78; csrftoken=29dd424d0e79a065ab2b4e21968df23a
-LOGNAME: root
-USER: root
-QUERY_STRING: 
-PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
-HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
-TERM: xterm
-HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
-HTTP_CONNECTION: keep-alive
-XAUTHORITY: /home/joel/.Xauthority
-LANGUAGE: 
-REMOTE_ADDR: 127.0.0.1
-wsgi.url_scheme: http
-SUDO_USER: joel
-CONTENT_LENGTH: 
-SUDO_UID: 1000
-wsgi.input: <socket._fileobject object at 0x2f5c350>
-wsgi.multithread: True
-TZ: America/Chicago
-SUDO_COMMAND: ./manage.py runserver 8080
-SERVER_NAME: localhost.localdomain
-GATEWAY_INTERFACE: CGI/1.1
-DJANGO_SETTINGS_MODULE: pcserver.settings
-CONTENT_TYPE: text/plain
-wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
-REMOTE_HOST: 
-HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
-
-
-HANDLER: GET /pcserver/term/1
-RESPONSE
-Vary: Authorization
-Content-Type: application/json; charset=utf-8
-
-{
-    "errors": [], 
-    "data": {
-        "term": {
-            "id": 1, 
-            "image_url": "/pcserver/static/images/moonatmos.png", 
-            "description": "Baz", 
-            "title": "Foo"
-        }, 
-        "messages": []
-    }, 
-    "success": true
-}
--------------------------------------
-
--------------------------------------
-2011-08-30 23:42:39.276273
-RUN_MAIN: true
-HTTP_REFERER: http://127.0.0.1:8080/pcserver/
-SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
-SCRIPT_NAME: 
-REQUEST_METHOD: GET
-SERVER_PROTOCOL: HTTP/1.1
-HOME: /home/joel
-DISPLAY: :0.0
-LANG: en_US.UTF-8
-SHELL: /bin/bash
-SERVER_PORT: 8080
-USERNAME: root
-HTTP_X_REQUESTED_WITH: XMLHttpRequest
-HTTP_HOST: 127.0.0.1:8080
-HTTP_ACCEPT: */*
-SUDO_GID: 1000
-wsgi.version: (1, 0)
-wsgi.run_once: False
-wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f33320aa1e0>
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f70d0b651e0>
 wsgi.multiprocess: False
 HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
 MAIL: /var/mail/joel
 LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
 PATH_INFO: /pcserver/terms
-HTTP_COOKIE: sessionid=530c0ae0dc5310ff9d0b0d689b2d5b78; csrftoken=29dd424d0e79a065ab2b4e21968df23a
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=4d03efc1701caafe7296dc04dee52aab
 LOGNAME: root
 USER: root
-QUERY_STRING: 
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
 PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
 HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
 TERM: xterm
@@ -187,10 +40,10 @@ wsgi.url_scheme: http
 SUDO_USER: joel
 CONTENT_LENGTH: 
 SUDO_UID: 1000
-wsgi.input: <socket._fileobject object at 0x31707d0>
+wsgi.input: <socket._fileobject object at 0x20e4050>
 wsgi.multithread: True
 TZ: America/Chicago
-SUDO_COMMAND: ./manage.py runserver 8080
+SUDO_COMMAND: ./manage.py runserver
 SERVER_NAME: localhost.localdomain
 GATEWAY_INTERFACE: CGI/1.1
 DJANGO_SETTINGS_MODULE: pcserver.settings
@@ -199,7 +52,7 @@ wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
 REMOTE_HOST: 
 HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
 
-
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
 HANDLER: GET /pcserver/terms
 RESPONSE
 Vary: Authorization
@@ -228,3 +81,1414 @@ Content-Type: application/json; charset=utf-8
 }
 -------------------------------------
 
+-------------------------------------
+2011-08-31 16:08:52.051235
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f70d0b651e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=d851894d87ec9df7369362f934b0c4a7
+LOGNAME: root
+USER: root
+QUERY_STRING: 
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x20e4cd0>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [
+        "401 -- Unauthorized"
+    ], 
+    "data": {
+        "messages": []
+    }, 
+    "success": false
+}
+-------------------------------------
+
+-------------------------------------
+2011-08-31 16:11:42.309902
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f94f63031e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=8054768bb991c6df71925990df7df61e
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x31a6d50>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+-------------------------------------
+2011-08-31 16:11:46.486411
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f94f63031e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=21731bb5f9abb4d841d0971212e84fc2
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x31a6ed0>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+-------------------------------------
+2011-08-31 16:11:54.999059
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f94f63031e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=6a5a8b84951979c81a78aed6971b57a0
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x31a6e50>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+-------------------------------------
+2011-08-31 16:12:10.375215
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f94f63031e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=d5cb5c85a1d9b00a36159b6dbbfc79a9
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x31d22d0>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+-------------------------------------
+2011-08-31 16:12:14.519809
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f94f63031e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=3ac7312c751854c323bf7563d735aa0d
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x31a6e50>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+-------------------------------------
+2011-08-31 16:12:16.480656
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f94f63031e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=690f0b073d3f53c2611c3e7c0bfc6906
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x31a6ed0>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+-------------------------------------
+2011-08-31 16:12:17.655103
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f94f63031e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=95964402f12ce136e0cdc263dbca3e87
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x31d23d0>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+-------------------------------------
+2011-08-31 16:12:19.096195
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f94f63031e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=7c39f968f65706ed975688315133bc61
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x31d25d0>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+-------------------------------------
+2011-08-31 16:12:20.179015
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f94f63031e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=cb5e5b494a8cbc61b5d5b75571dc5ee7
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x31d2750>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+-------------------------------------
+2011-08-31 16:12:23.635685
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f94f63031e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=c7f8cb229b7878a2f5bc55ea41af92d2
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x31a6e50>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+-------------------------------------
+2011-08-31 16:12:25.718031
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f94f63031e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=a45e033b2e78438e59e744b07936f20c
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x31d2850>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+-------------------------------------
+2011-08-31 16:12:27.175635
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f94f63031e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=e6cc74f72b49cb792edc86a309b0191e
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x31d28d0>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+-------------------------------------
+2011-08-31 16:12:28.500103
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f94f63031e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=c26df44b3c2e7d85353fd5cdcb2438b2
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x31d2650>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+testuser requested: /pcserver/termskey=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+-------------------------------------
+2011-08-31 16:26:36.658674
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f114d7311e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=ccfcab1cbed91e68b64ce3c80095253d
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x26c22d0>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+testuser requested: /pcserver/termskey=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+-------------------------------------
+2011-08-31 16:26:41.459876
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f114d7311e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=c098e908be3dd3076c278df1f9a75ccd
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x27abcd0>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+testuser requested: /pcserver/termskey=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+-------------------------------------
+2011-08-31 16:26:41.884735
+RUN_MAIN: true
+HTTP_REFERER: http://127.0.0.1:8000/pcserver/
+SERVER_SOFTWARE: WSGIServer/0.1 Python/2.6.6
+SCRIPT_NAME: 
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+HOME: /home/joel
+DISPLAY: :0.0
+LANG: en_US.UTF-8
+SHELL: /bin/bash
+SERVER_PORT: 8000
+USERNAME: root
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_HOST: 127.0.0.1:8000
+HTTP_ACCEPT: */*
+SUDO_GID: 1000
+wsgi.version: (1, 0)
+wsgi.run_once: False
+wsgi.errors: <open file '<stderr>', mode 'w' at 0x7f114d7311e0>
+wsgi.multiprocess: False
+HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+MAIL: /var/mail/joel
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+PATH_INFO: /pcserver/terms
+HTTP_COOKIE: csrftoken=29dd424d0e79a065ab2b4e21968df23a; sessionid=063b891e59787c24506a1b312176b991
+LOGNAME: root
+USER: root
+QUERY_STRING: key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TERM: xterm
+HTTP_USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+HTTP_CONNECTION: keep-alive
+XAUTHORITY: /home/joel/.Xauthority
+LANGUAGE: 
+REMOTE_ADDR: 127.0.0.1
+wsgi.url_scheme: http
+SUDO_USER: joel
+CONTENT_LENGTH: 
+SUDO_UID: 1000
+wsgi.input: <socket._fileobject object at 0x27abed0>
+wsgi.multithread: True
+TZ: America/Chicago
+SUDO_COMMAND: ./manage.py runserver
+SERVER_NAME: localhost.localdomain
+GATEWAY_INTERFACE: CGI/1.1
+DJANGO_SETTINGS_MODULE: pcserver.settings
+CONTENT_TYPE: text/plain
+wsgi.file_wrapper: <class 'django.core.servers.basehttp.FileWrapper'>
+REMOTE_HOST: 
+HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+REQUEST GET: {u'key': u'dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0'}
+HANDLER: GET /pcserver/terms
+RESPONSE
+Vary: Authorization
+Content-Type: application/json; charset=utf-8
+
+{
+    "errors": [], 
+    "data": {
+        "terms": [
+            {
+                "id": 1, 
+                "image_url": "/pcserver/static/images/moonatmos.png", 
+                "description": "Baz", 
+                "title": "Foo"
+            }
+        ], 
+        "paging": {
+            "next_page": "NO", 
+            "total_pages": 1, 
+            "page": 1, 
+            "previous_page": "NO"
+        }, 
+        "messages": []
+    }, 
+    "success": true
+}
+-------------------------------------
+
+testuser requested: /pcserver/termskey=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+testuser requested: /pcserver/terms?key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+testuser requested: /pcserver/terms?key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+testuser requested: /pcserver/terms?key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+testuser requested: /pcserver/terms?key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+2011-08-31 16:29:08.168594testuser requested: /pcserver/terms?key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+2011-08-31 16:29:24.773742 -- testuser requested: /pcserver/terms?key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+2011-08-31 16:29:25.187322 -- testuser requested: /pcserver/terms?key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
+2011-08-31 16:29:44.786485 -- testuser requested: /pcserver/term/1?key=dGVzdHVzZXI6c2hhMSQ1YTA4OCRkYTdiMDUwMjc2OGEzOGQzODk0ODBkOGZkMWZjNjc3MGEyNDE5MjM0
